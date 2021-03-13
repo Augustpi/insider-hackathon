@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Avni Onur Pehlivan",
+      "email": "avnionur@gmail.com",
+      "password": "asdf1234",
+      "rate": 1,
+      "payment": true,
+      "lastPayDate": "2021-03-13T15:16:33.351Z",
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 2,
+      "name": "Emin Talha Arık",
+      "email": "avnionur@gmail.com",
+      "password": "asdf1234",
+      "rate": 0,
+      "payment": true,
+      "lastPayDate": "2021-03-13T15:16:33.351Z",
+      "date": "2021-03-13T15:16:33.351Z"
+    }
+  ],
+  "cats": [
+    {
+      "id": 1,
+      "name": "Yoksulluğa son",
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 2,
+      "name": "Açlığa son",
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 3,
+      "name": "Nitelikli eğiitim",
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 4,
+      "name": "Ekonomik Büyüme",
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 5,
+      "name": "Sürdürülebilir şehirler ve toplumlar",
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 6,
+      "name": "Amaçlar için ortaklıklar",
+      "date": "2021-03-13T15:16:33.351Z"
+    }
+  ],
+  "sub-cats": [
+    {
+      "id": 1,
+      "name": "Matkap",
+      "catId": 5,
+      "isTurnBack": true,
+      "date": "2021-03-13T15:16:33.351Z"
+    },
+    {
+      "id": 2,
+      "name": "1 Saatlik Matematik Kursu",
+      "catId": 3,
+      "isTurnBack": true,
+      "date": "2021-03-13T15:16:33.351Z"
+    }
+  ],
+  "payedItems": [
+    {
+      "id": 1,
+      "userId": 1,
+      "payedUserId": 1,
+      "subCatId": 1,
+      "date": "2021-03-13T15:16:33.351Z"
+    }
+  ]
+}
