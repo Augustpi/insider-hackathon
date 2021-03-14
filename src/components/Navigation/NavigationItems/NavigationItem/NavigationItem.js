@@ -36,8 +36,7 @@ const navigationItem = (props) => {
           <div className={classes.MenuText}>
             <ArrowBackOutline
               color={'#00000'}
-              height="250px"
-              width="250px"
+              className={classes.Arrow}
             />
             <div className={classes.Text}>
               <div className={classes.LinkText}>

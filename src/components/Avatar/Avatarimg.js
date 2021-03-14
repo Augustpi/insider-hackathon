@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import classes from './Avatar.css';
+import classes from './Avatar.module.css';
 
 const AvatarImg = props => {
 
@@ -12,7 +12,7 @@ const AvatarImg = props => {
       <div className={classes.Avatar}>
         {photoUrl !== null
           ? <img src={photoUrl} alt="User" />
-          : name.substr(0,2).toUpperCase()}
+          : name.substr(0, 2).toUpperCase()}
       </div>
     </div>
   );

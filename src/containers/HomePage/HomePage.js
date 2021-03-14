@@ -1,6 +1,6 @@
 import React from 'react'
 
-import classes from './HomePage.module.css';
+import './HomePage.module.css';
 
 function HomePage () {
   return (
@@ -10,4 +10,4 @@ function HomePage () {
   )
 }
 
-export default HomePage
+export default HomePage;
