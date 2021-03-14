@@ -1,0 +1,67 @@
+.Container {
+  position: relative;
+  padding: 8px 0px;
+  height: 44px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.Arrow {
+  top: 18px;
+  right: 0;
+  position: absolute;
+}
+
+.Avatar {
+  position: absolute;
+  -webkit-background-size: 32px 32px;
+  background-size: 32px 32px;
+  -webkit-border-radius: 50%;
+  border-radius: 20%;
+  margin: 0;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  z-index: 0;
+  background-color: #04272b;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+}
+
+.Avatar img {
+  height: 40px;
+  width: 40px;
+}
+
+.UserDetails {
+  padding-left: 54px;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: #3d3d3d;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.UserExperience {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  color: #757575;
+  letter-spacing: -0.24px;
+  line-height: 18px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 900px) {
+  .Container {
+    padding: 14px 0px 0px;
+    margin-right: 24px;
+  }
+}

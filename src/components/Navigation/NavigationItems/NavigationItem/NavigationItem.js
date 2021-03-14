@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import classes from './NavigationItem.css';
-import IosArrowForward from 'react-ionicons/lib/IosArrowForward';
+import { ArrowBackOutline } from 'react-ionicons';
 
 const navigationItem = (props) => {
 
@@ -34,7 +34,11 @@ const navigationItem = (props) => {
           </div>
 
           <div className={classes.MenuText}>
-            <IosArrowForward className={classes.Arrow} color="#ccc" />
+            <ArrowBackOutline
+              color={'#00000'}
+              height="250px"
+              width="250px"
+            />
             <div className={classes.Text}>
               <div className={classes.LinkText}>
                 {icon === 'Search' ? <div className={classes.search}></div> : null}

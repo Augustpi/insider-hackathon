@@ -1,13 +1,138 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca|Open+Sans:400,600,700&display=swap");
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'); */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Lexend Deca", "Open Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Layout {
+  position: relative;
+  height: calc(100vh - 72px);
+}
+
+.Wrapper {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.StandartStep {
+  height: calc(100vh - 72px);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  color: #04272c;
+  letter-spacing: 0px;
+}
+
+h4 {
+  text-align: center;
+  margin: 8px 8px 18px 8px;
+}
+
+h5 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #252525;
+  cursor: pointer;
+  line-height: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+.Form {
+  margin: 0px 40px;
+}
+
+.tac {
+  text-align: center;
+}
+
+.Container {
+  position: relative;
+}
+
+.Top120 {
+  position: relative;
+  top: -120px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.Link {
+  padding: 5px 15px;
+  background: #276ef1;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.Link:hover {
+  background: #387eff;
+  box-shadow: 0 2px 4px #a9a9a9;
+}
+
+.Link:active {
+  background: #185bd8;
+  box-shadow: 0 2px 2px #a9a9a9;
+}
+
+.Buttom10 {
+  margin-bottom: 10px;
+}
+
+.Buttom10 h4 {
+  color: #185bd8;
+}
+
+@media (max-width: 500px) {
+  .Layout {
+  }
+  .Layout2 {
+    position: relative;
+    height: calc(100vh - 72px);
+  }
+}
+
+@media (max-width: 800px) {
+  .Layout2 {
+    position: relative;
+    height: calc(100vh - 72px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .Form {
+    margin: 0px 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .Form {
+    margin: 0px 500px;
+  }
 }

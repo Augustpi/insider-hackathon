@@ -7,9 +7,9 @@ import Aux from '../../../hoc/Aux/Aux';
 
 const displayMenuOnSideDrawer = (
   <Aux>
-    <NavigationItem icon="History" link="/yolculuklarim" menuExplain="Yolculuklarınızı inceleyin">Yolculuklarım</NavigationItem>
-    <NavigationItem icon="Cash" link="/odemeler-ve-iadeler" menuExplain="Ödeme bilgileriniz">Ödeme ve İadeler</NavigationItem>
-    <NavigationItem icon="Message" link="/bildirimler" menuExplain="Mesaj ve bildirimleriniz">Bildirimler</NavigationItem>
+    <NavigationItem icon="History" link="/history" menuExplain="Geçmiş">Geçmiş</NavigationItem>
+    <NavigationItem icon="Cash" link="/payment" menuExplain="Ödeme bilgileriniz">Ödeme ve İadeler</NavigationItem>
+    <NavigationItem icon="Message" link="/notify" menuExplain="Bildirimleriniz">Bildirimler</NavigationItem>
   </Aux>
 );
 
@@ -20,19 +20,19 @@ const navigationItems = (props) => (
       ? (
         <Aux>
           {!props.sideDrawer ? <AvatarImg /> : null}
-          <NavigationItem icon="Profile" link="/profile" menuExplain="Profil sayfana git">Profilim</NavigationItem>
-          <NavigationItem icon="Add" link="/yoldas/ilan-ver" menuExplain="Şimdi yolculuk ilan ver">Yolculuk İlanı ver</NavigationItem>
-          <NavigationItem icon="Search" link="/yoldas/seyahat-arkadasi-ara" menuExplain="Seyahat arkadaş ara">Yoldaş ara</NavigationItem>
+          <NavigationItem icon="Profile" link="/profile" menuExplain="Profil">Profil</NavigationItem>
+          <NavigationItem icon="Add" link="/add" menuExplain="Yeni ekle">Yeni ekle</NavigationItem>
+          <NavigationItem icon="Search" link="/search" menuExplain="Ara">Ara</NavigationItem>
           {props.sideDrawer ? displayMenuOnSideDrawer : null}
-          <NavigationItem icon="Exit" link="/logout" menuExplain="Güvenli çıkış">Çıkış</NavigationItem>
+          <NavigationItem icon="Exit" link="/logout" menuExplain="Çıkış">Çıkış</NavigationItem>
         </Aux>
       )
       : (
         <Aux>
-          <NavigationItem icon="Add" link="/yoldas/ilan-ver" menuExplain="Şimdi yolculuk ilan ver">Yolculuk İlanı ver</NavigationItem>
-          <NavigationItem icon="Search" link="/yoldas/seyahat-arkadasi-ara" menuExplain="Seyahat arkadaş ara">Yoldaş ara</NavigationItem>
-          <NavigationItem icon="SignUp" link="/sign-up" menuExplain="Şimdi üye olun">Üye ol</NavigationItem>
-          <NavigationItem icon="Login" link="/login-yoldas" menuExplain="Şimdi giriş yapın">Giriş yap</NavigationItem>
+          <NavigationItem icon="Add" link="/add" menuExplain="Yeni ekle">Yeni ekle</NavigationItem>
+          <NavigationItem icon="Search" link="/search" menuExplain="Ara">Ara</NavigationItem>
+          <NavigationItem icon="SignUp" link="/sign-up" menuExplain="Üye olun">Üye ol</NavigationItem>
+          <NavigationItem icon="Login" link="/login" menuExplain="Şimdi giriş yapın">Giriş yap</NavigationItem>
         </Aux>
       )
     }

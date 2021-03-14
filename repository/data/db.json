@@ -7,6 +7,7 @@
       "password": "asdf1234",
       "rate": 1,
       "payment": true,
+      "photoUrl" :"",
       "lastPayDate": "2021-03-13T15:16:33.351Z",
       "date": "2021-03-13T15:16:33.351Z"
     },
@@ -17,6 +18,7 @@
       "password": "asdf1234",
       "rate": 0,
       "payment": true,
+      "photoUrl" :"",
       "lastPayDate": "2021-03-13T15:16:33.351Z",
       "date": "2021-03-13T15:16:33.351Z"
     }

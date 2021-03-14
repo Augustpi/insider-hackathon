@@ -1,0 +1,102 @@
+@media (max-width: 1024px) {
+  .Foother div {
+    font-size: 12px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Wrapper {
+    max-width: none;
+  }
+  .HomePageImg {
+    height: 80vh;
+  }
+
+  .InfoText {
+    min-height: 70vh;
+  }
+
+  .InfoText h1 {
+    font-size: 28px;
+    margin: 0 60px;
+  }
+
+  .InfoText p {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Wrapper {
+    max-width: none;
+  }
+
+  .Wrapper ul {
+    flex-flow: column wrap;
+    text-align: center;
+  }
+
+  .HomePageImg {
+    height: 60vh;
+    background-position: 50% 0%;
+  }
+
+  .InfoText {
+    min-height: 60vh;
+  }
+
+  .InfoText h1 {
+    font-size: 14px;
+  }
+
+  .InfoText p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .Wrapper ul li p {
+    padding-right: 0px;
+    text-align: justify;
+  }
+
+  .endmenu {
+    flex-direction: column;
+  }
+
+  .conditions {
+    flex-direction: column;
+  }
+  .topMenu {
+    border-radius: 0px;
+  }
+
+  .topMenu div:nth-child(2) {
+    display: none;
+  }
+  .topMenu div:nth-child(4) {
+    display: none;
+  }
+  .secury {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .politic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .travel {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text div:nth-child(1) {
+    padding: 0 46px;
+    text-align: center;
+  }
+}
