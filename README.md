@@ -20,8 +20,11 @@ You should run `npm run server: all` firstly for fake (dummy) api repositories.
 Navigate for REST API documentation to http://localhost:3000
 
 http://localhost:3000/users
+
 http://localhost:3000/cats
+
 http://localhost:3000/sub-cats
+
 http://localhost:3000/payedItems
 
 ### `yarn test`
