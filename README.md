@@ -8,11 +8,21 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.<br>
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+## fake REST API Resources, (Json-Server)
+
+You should run `npm run server: all` firstly for fake (dummy) api repositories.
+Navigate for REST API documentation to http://localhost:3000
+
+http://localhost:3000/users
+http://localhost:3000/cats
+http://localhost:3000/sub-cats
+http://localhost:3000/payedItems
 
 ### `yarn test`
 
