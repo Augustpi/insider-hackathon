@@ -20,7 +20,7 @@ const sideDrawer = (props) => {
       <Backdrop show={props.open} clicked={props.closed} />
       <div className={attachedClasses.join(' ')} onClick={props.closed}>
         <div className={classes.Logo}>
-          <Logo />
+          <Logo height="140px" />
         </div>
         <nav>
           {props.isAuth ? <Avatar /> : null}
