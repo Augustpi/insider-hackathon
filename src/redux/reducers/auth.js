@@ -8,10 +8,11 @@ const initialState = {
   password: null,
   rate: null,
   payment: null,
-  photoUrl: null,
+  photoUrl: "",
   lastPayDate: null,
   date: null,
   error: null,
+  token: null,
   loading: false,
   authRedirectPath: '/'
 };
@@ -31,6 +32,7 @@ const authSuccess = (state, action) => {
     photoUrl: action.photoUrl,
     lastPayDate: action.lastPayDate,
     date: action.date,
+    token: action.token,
     error: null,
     loading: false
   });

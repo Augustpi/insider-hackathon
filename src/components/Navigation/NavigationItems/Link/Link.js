@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import classes from './Link.css';
+import classes from './Link.module.css';
 
 const navigationItem = (props) => {
 

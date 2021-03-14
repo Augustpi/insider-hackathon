@@ -1,8 +1,8 @@
 import React from "react";
-// import { connect } from "react-redux";
+import { connect } from "react-redux";
 import { NavLink } from "react-router-dom";
 
-import classes from "./Avatar.css";
+import classes from "./Avatar.module.css";
 import { ArrowBackOutline } from "react-ionicons";
 
 const Avatar = (props) => {
@@ -30,12 +30,12 @@ const Avatar = (props) => {
   );
 };
 
-// const mapStateToProps = (state) => {
-//   return {
-//     name: state.auth.name,
-//     photoUrl: state.auth.photoUrl,
-//     emailVerified: state.auth.emailVerified,
-//   };
-// };
+const mapStateToProps = (state) => {
+  return {
+    name: state.auth.name,
+    photoUrl: state.auth.photoUrl,
+    emailVerified: state.auth.emailVerified,
+  };
+};
 
-export default Avatar; //connect(mapStateToProps)(Avatar);
+export default connect(mapStateToProps)(Avatar);

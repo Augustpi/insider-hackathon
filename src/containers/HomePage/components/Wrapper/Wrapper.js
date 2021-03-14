@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './Wrapper.css';
+import classes from './Wrapper.module.css';
 
 const Wrapper = (props) => {
   return (

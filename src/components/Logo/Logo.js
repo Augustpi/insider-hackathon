@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import logoSvg from '../../assets/images/logo.svg';
-import classes from './Logo.css';
+import classes from './Logo.module.css';
 
 const logo = (props) => (
   <NavLink to="/" exact>
