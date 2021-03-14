@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
 
 import Aux from '../Aux/Aux';
 import classes from './Layout.css';
@@ -34,4 +35,12 @@ const Layout = props => {
   )
 }
 
-export default Layout
+const mapStateToProps = state => {
+  return {
+    isAuthenticated: state.auth.token !== null,
+    name: state.auth.name
+  };
+};
+
+export default connect(mapStateToProps)(Layout);
+
