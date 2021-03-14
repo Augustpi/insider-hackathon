@@ -1,0 +1,78 @@
+.Wrapper {
+  padding-bottom: 24px;
+  position: relative;
+}
+
+.Wrapper h1 {
+  max-width: 1016px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d48605;
+  font-size: 22px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.Wrapper ul {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1016px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.Wrapper ul li {
+  min-width: calc(33% - 48px);
+  display: block;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.Wrapper ul li h3 {
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #04272c;
+}
+
+.Wrapper ul li p {
+  color: #757575;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 100;
+  padding-right: 24px;
+  text-align: justify;
+}
+
+.Wrapper ul li h3 u {
+  text-decoration-color: #ccc;
+  text-decoration-style: unset;
+  text-decoration-line: underline;
+}
+
+@media (max-width: 800px) {
+  .Wrapper {
+    max-width: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .Wrapper {
+    max-width: none;
+  }
+
+  .Wrapper ul {
+    flex-flow: column wrap;
+    text-align: center;
+  }
+
+  .Wrapper ul li p {
+    padding-right: 0px;
+    text-align: justify;
+  }
+}

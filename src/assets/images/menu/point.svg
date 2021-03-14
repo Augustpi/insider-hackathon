@@ -1,0 +1,12 @@
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="SignUp-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-497.000000, -710.000000)">
+            <g id="point" transform="translate(497.000000, 710.000000)">
+                <rect id="Rectangle" fill="#F2F2F2" x="0" y="0" width="40" height="40" rx="8"></rect>
+                <g id="_ionicons_svg_md-star-half" transform="translate(8.000000, 9.000000)" fill="#FF9B00" fill-rule="nonzero">
+                    <path d="M24,8.69756436 L15.3702772,7.95641584 L12,0 L8.62912871,7.95647525 L0,8.69756436 L6.54605941,14.3722574 L4.58382178,22.8118812 L12,18.3377822 L19.4156436,22.8118812 L17.454,14.3723168 L24,8.69756436 Z M12.9820396,16.7101188 L12,16.117604 L11.9998812,4.87342574 L13.6198812,8.69792079 L14.0666139,9.75243564 L15.2076832,9.85045545 L19.3569505,10.2067723 L16.2088515,12.9358218 L15.3429505,13.6864752 L15.6023762,14.8025941 L16.5454455,18.8599604 L12.9820396,16.7101188 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

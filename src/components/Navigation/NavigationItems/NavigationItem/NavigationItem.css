@@ -1,0 +1,274 @@
+.Container {
+  position: relative;
+  padding: 8px 0px;
+  height: 44px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.Arrow {
+  top: 18px;
+  right: 0;
+  position: absolute;
+}
+
+.MenuLogo {
+  position: absolute;
+  -webkit-background-size: 32px 32px;
+  background-size: 32px 32px;
+  margin-top: 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  z-index: 0;
+}
+
+.MenuLogo img {
+  height: 40px;
+  width: 40px;
+}
+
+.MenuLogo .Default {
+  content: url(../../../../assets/images/menu/menu-logo-default.svg);
+}
+
+.MenuLogo .Profile {
+  content: url(../../../../assets/images/menu/profile-icon.svg);
+}
+
+.MenuLogo .Add {
+  content: url(../../../../assets/images/menu/add-icon.svg);
+}
+
+.MenuLogo .Cash {
+  content: url(../../../../assets/images/menu/cash-icon.svg);
+}
+
+.MenuLogo .Search {
+  content: url(../../../../assets/images/menu/search-icon.svg);
+}
+
+.MenuLogo .Exit {
+  content: url(../../../../assets/images/menu/exit-icon.svg);
+}
+
+.MenuLogo .History {
+  content: url(../../../../assets/images/menu/history-icon.svg);
+}
+
+.MenuLogo .Message {
+  content: url(../../../../assets/images/menu/messages-icon.svg);
+}
+
+.MenuLogo .Login {
+  content: url(../../../../assets/images/menu/login-icon.svg);
+}
+
+.MenuLogo .SignUp {
+  content: url(../../../../assets/images/menu/sign-up-icon.svg);
+}
+
+.add {
+  background-image: url(../../../../assets/images/menu/add.svg);
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.search {
+  background-image: url(../../../../assets/images/menu/search.svg);
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.exit {
+  background-image: url(../../../../assets/images/menu/close.svg);
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.newMember {
+  background-image: url(../../../../assets/images/menu/sign-in.svg);
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.signIn {
+  background-image: url(../../../../assets/images/menu/log-in.svg);
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.Text {
+  padding-bottom: 8px;
+  border-bottom: 1px solid lightgray;
+}
+
+.MenuText {
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 0px 0px 54px;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+
+.MenuExplain {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  color: #757575;
+  letter-spacing: -0.24px;
+  line-height: 18px;
+}
+
+.NavigationItem {
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  width: 100%;
+}
+
+.NavigationItem a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: #4a4a4a;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.LinkText {
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-weight: 100;
+  color: #04272c;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: #181818;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 800px) {
+  .Container {
+    height: auto;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  .NavigationItem {
+    padding: 0px;
+    width: auto;
+  }
+
+  .MenuLogo {
+    display: none;
+  }
+
+  .MenuText {
+    padding: 0px 0px 0px 14px;
+  }
+
+  .Arrow {
+    display: none;
+  }
+
+  .Text {
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+
+  .LinkText {
+    display: flex;
+    border-bottom: none;
+    letter-spacing: 0.2px;
+    padding: 25px 10px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  .MenuExplain {
+    display: none;
+  }
+}
+
+@media (min-width: 768x) {
+  .NavigationItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    width: auto;
+    align-items: center;
+  }
+
+  .NavigationItem a {
+    color: #4a4a4a;
+    height: 100%;
+    width: 100%;
+    padding: 24px 10px;
+    /* border-bottom: 4px solid transparent; */
+  }
+
+  .LinkText {
+    color: #4a4a4a;
+    height: 100%;
+    width: 100%;
+    padding: 24px 10px;
+    /* border-bottom: 4px solid transparent; */
+  }
+
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    background-color: #fff;
+    font-weight: 700;
+    width: 100%;
+    color: #181818;
+  }
+}
+
+@media (max-width: 768px) {
+  .add {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .exit {
+    display: none;
+  }
+  .newMember {
+    display: none;
+  }
+  .signIn {
+    display: none;
+  }
+}

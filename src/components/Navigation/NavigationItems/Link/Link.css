@@ -1,0 +1,25 @@
+.Link {
+  padding: 14px 29px;
+  background: #276ef1;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.Link:hover {
+  background: #387eff;
+}
+
+.homepage {
+  padding: 21px 71px;
+  background: #70c910;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  justify-content: center;
+}
